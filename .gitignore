@@ -1,0 +1,72 @@
+# Flutter
+frontend/agrivision_ai/.dart_tool/
+frontend/agrivision_ai/build/
+frontend/agrivision_ai/android/.gradle/
+frontend/agrivision_ai/android/app/build/
+frontend/agrivision_ai/android/local.properties
+frontend/agrivision_ai/android/build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Credentials
+*.pem
+*.key
+serviceAccountKey.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large dataset files
+datasets/**/*.jpg
+datasets/**/*.jpeg
+datasets/**/*.png
+datasets/**/*.zip
+# Flutter backup / temporary folders
+# Flutter backup / temporary projects
+frontend/agrivision_ai_backup/
+frontend/temp_gradle_project/
+
+# APK / build outputs
+*.apk
+*.aab
+
+# Android signing files
+*.jks
+*.keystore
+key.properties
+# Flutter backup / temporary folders
+frontend/agrivision_ai/agrivision_ai_backup/
+frontend/agrivision_ai/temp_gradle_project/
+
+# APK / build outputs
+*.apk
+*.aab
+
+# Android signing files
+*.jks
+*.keystore
+key.properties
+
+# Documents not intended for GitHub
+documents/
+
+# Firebase Android configuration
+frontend/agrivision_ai/android/app/google-services.json
